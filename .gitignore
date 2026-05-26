@@ -18,6 +18,7 @@ desktop.ini
 # Local AI/spec-driven workflow
 openspec/
 .codex/
+docs/
 
 # Logs / temp
 *.log

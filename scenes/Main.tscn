@@ -1,26 +1,27 @@
-[gd_scene load_steps=2 format=3 uid="uid://demo-main-scene"]
+[gd_scene format=3 uid="uid://bmavf0haq1w1p"]
 
-[ext_resource type="Script" path="res://scripts/Main.gd" id="1_main"]
+[ext_resource type="Script" uid="uid://7nc66rji8qjc" path="res://scripts/Main.gd" id="1_main"]
 
-[node name="Main" type="Node2D"]
+[node name="Main" type="Node2D" unique_id=755775943]
 script = ExtResource("1_main")
 
-[node name="World" type="Node2D" parent="."]
+[node name="World" type="Node2D" parent="." unique_id=1551844598]
 
-[node name="Camera2D" type="Camera2D" parent="."]
-enabled = true
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1857692578]
 
-[node name="UI" type="CanvasLayer" parent="."]
+[node name="UI" type="CanvasLayer" parent="." unique_id=513979840]
 
-[node name="Root" type="Control" parent="UI"]
+[node name="Root" type="Control" parent="UI" unique_id=805291259]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 1.0
+offset_right = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="TitleLabel" type="Label" parent="UI/Root"]
+[node name="TitleLabel" type="Label" parent="UI/Root" unique_id=222833487]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
@@ -31,4 +32,3 @@ offset_bottom = 52.0
 grow_horizontal = 2
 text = "Demo Game Total War 2D"
 horizontal_alignment = 1
-
