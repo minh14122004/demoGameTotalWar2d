@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.gd": "gdscript",
+    "*.tscn": "gdresource",
+    "*.tres": "gdresource"
+  },
+  "editor.insertSpaces": false,
+  "editor.tabSize": 4,
+  "godot_tools.editor_path": "",
+  "godotTools.editorPath.godot4": "d:\\download\\Godot_v4.6.3-stable_win64.exe\\Godot_v4.6.3-stable_win64.exe"
+}
+
