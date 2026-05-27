@@ -35,3 +35,6 @@ temp/
 # Builds
 builds/
 exports/
+
+#examples
+example fighting mechanic/
