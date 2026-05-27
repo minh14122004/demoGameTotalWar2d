@@ -20,6 +20,13 @@ openspec/
 .codex/
 docs/
 
+# Local secrets / service config
+.env
+.env.*
+!.env.example
+config/local/
+supabase.local.json
+
 # Logs / temp
 *.log
 tmp/
