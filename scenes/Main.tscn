@@ -1,39 +1,39 @@
 [gd_scene format=3 uid="uid://bmavf0haq1w1p"]
 
 [ext_resource type="Script" uid="uid://7nc66rji8qjc" path="res://scripts/Main.gd" id="1_main"]
-[ext_resource type="Texture2D" uid="uid://dehygum6htolk" path="res://assets/art/textures/heroes/human/arthen/battle_idle_direction_sheet.png" id="2_rvslj"]
+[ext_resource type="Texture2D" uid="uid://b0y51613osln5" path="res://assets/art/textures/heroes/human/arthen/battle_idle_direction_sheet_godot_4x2.png" id="2_rvslj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0bbpv"]
 atlas = ExtResource("2_rvslj")
-region = Rect2(0, 0, 429, 458)
+region = Rect2(0, 0, 512, 512)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rarhs"]
 atlas = ExtResource("2_rvslj")
-region = Rect2(858, 0, 429, 458)
+region = Rect2(1536, 512, 512, 512)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vcsgt"]
 atlas = ExtResource("2_rvslj")
-region = Rect2(1287, 458, 429, 458)
+region = Rect2(1024, 0, 512, 512)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_c01mt"]
 atlas = ExtResource("2_rvslj")
-region = Rect2(858, 458, 429, 458)
+region = Rect2(1024, 512, 512, 512)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nxtc6"]
 atlas = ExtResource("2_rvslj")
-region = Rect2(0, 458, 429, 458)
+region = Rect2(0, 512, 512, 512)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jlsqs"]
 atlas = ExtResource("2_rvslj")
-region = Rect2(429, 458, 429, 458)
+region = Rect2(512, 512, 512, 512)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_q8u5g"]
 atlas = ExtResource("2_rvslj")
-region = Rect2(1287, 0, 429, 458)
+region = Rect2(1536, 0, 512, 512)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lhr70"]
 atlas = ExtResource("2_rvslj")
-region = Rect2(429, 0, 429, 458)
+region = Rect2(512, 0, 512, 512)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_wp0k4"]
 animations = [{
@@ -64,7 +64,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"default",
-"speed": 5.0
+"speed": 2.0
 }]
 
 [node name="Main" type="Node2D" unique_id=755775943]
@@ -101,4 +101,3 @@ horizontal_alignment = 1
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1351056341]
 position = Vector2(1, 2)
 sprite_frames = SubResource("SpriteFrames_wp0k4")
-frame_progress = 0.22513828
