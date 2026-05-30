@@ -1,0 +1,1 @@
+Arthen Steelguard 16-direction screen_isometric idle raw page 1; preserve original reference identity; 4 rows x 4 frames; solid #FF00FF raw background; no mirror; sword right hand, shield left arm.
